@@ -1,5 +1,14 @@
-import { $enviar1, $input, $minutos, $perrafo, $iniciar, $tarea, $minuto, $segundo, $detener} 
-from "/selectores.js";
+// import { $enviar1, $input, $minutos, $perrafo, $iniciar, $tarea, $minuto, $segundo, $detener} 
+// from "/selectores.js";
+ const $minutos = document.querySelector(".minutero");
+ const $input = document.getElementById("input");
+ const $enviar1 = document.getElementById("enviar");
+ const $perrafo = document.querySelector(".parrafo");
+ const $iniciar = document.querySelector(".botoninicio");
+ const $detener = document.querySelector(".botondetener");
+ const $tarea = document.querySelector(".tareacontador");
+ const $minuto = document.querySelector(".minutos");
+ const $segundo= document.querySelector(".segundos");
 
 
 
