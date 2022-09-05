@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplicacion Pomodoro</title>
+</head>
+<body>
+        <div class="container">
+            <div class="minutero"><p class="minutos">00</p><p>:</p><p class="segundos">00</p></div>
+            <div class="tareacontador"></div>
+            <div class="contenedor-input">
+                <input type="text" id="input" placeholder="Tarea a Realizar">
+                <input type="submit" value="Agregar Tarea" class="boton" id="enviar">
+            </div>
+            <div class="contedor-invisible">
+                <p class="parrafo"></p>
+                <input type="submit" value="Iniciar" class="boton botoninicio">
+                <input type="submit" value="Detener" class="boton botondetener">
+                
+            </div>
+        </div>
+
+
+        <script src="main.js" type="module"></script>
+</body>
+</html>
